@@ -1,0 +1,163 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" fill="none">
+  <defs>
+    <radialGradient id="bgGlowVideo" cx="50%" cy="30%" r="65%">
+      <stop offset="0%" stop-color="#1747E8" stop-opacity="0.32"/>
+      <stop offset="50%" stop-color="#7A3FF2" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#0B1020" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="orangeGlowVideo" cx="80%" cy="75%" r="45%">
+      <stop offset="0%" stop-color="#FF7A18" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#0B1020" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="timelineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1747E8"/>
+      <stop offset="45%" stop-color="#7A3FF2"/>
+      <stop offset="100%" stop-color="#FF7A18"/>
+    </linearGradient>
+    <linearGradient id="clip1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1747E8"/>
+      <stop offset="100%" stop-color="#1235B8"/>
+    </linearGradient>
+    <linearGradient id="clip2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7A3FF2"/>
+      <stop offset="100%" stop-color="#C33CFF"/>
+    </linearGradient>
+    <linearGradient id="clip3" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF7A18"/>
+      <stop offset="100%" stop-color="#F59E0B"/>
+    </linearGradient>
+    <filter id="videoShadow" x="-10%" y="-10%" width="120%" height="125%" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="16" stdDeviation="22" flood-color="#000000" flood-opacity="0.55"/>
+    </filter>
+  </defs>
+
+  <!-- Deep Navy Studio Backdrop -->
+  <rect width="800" height="450" fill="#0B1020"/>
+  <rect width="800" height="450" fill="url(#bgGlowVideo)"/>
+  <rect width="800" height="450" fill="url(#orangeGlowVideo)"/>
+
+  <!-- Creative Studio Workstation Monitor Container -->
+  <g filter="url(#videoShadow)" transform="translate(100, 40)">
+    <!-- Ultrawide Studio Screen Body -->
+    <rect width="600" height="370" rx="16" fill="#0C1326" stroke="#223158" stroke-width="1.5"/>
+
+    <!-- Workstation Topbar -->
+    <g transform="translate(24, 18)">
+      <circle cx="10" cy="12" r="5" fill="#EF4444"/>
+      <circle cx="26" cy="12" r="5" fill="#F59E0B"/>
+      <circle cx="42" cy="12" r="5" fill="#10B981"/>
+      <text x="64" y="16" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#CBD5E1">SJ_Spectra_Brand_Film_Final_4K_HDR.mp4</text>
+      <!-- Export Badge -->
+      <rect x="440" y="2" width="110" height="22" rx="11" fill="#152142" stroke="#2D3F6C" stroke-width="1"/>
+      <text x="495" y="17" font-family="system-ui, sans-serif" font-size="10" font-weight="800" fill="#38BDF8" text-anchor="middle">4K 60FPS · REC 709</text>
+    </g>
+
+    <!-- Main Viewport Preview Monitor -->
+    <g transform="translate(24, 48)">
+      <!-- Cinema Screen Frame -->
+      <rect width="360" height="190" rx="10" fill="#060A14" stroke="#1C2746" stroke-width="1.2"/>
+      
+      <!-- Video Frame Content Mockup -->
+      <!-- Cinematic Studio Stage with Gradient Lighting -->
+      <path d="M 0 130 Q 180 90, 360 130 L 360 190 L 0 190 Z" fill="#0B1224"/>
+      <circle cx="180" cy="85" r="45" fill="linear-gradient(135deg, #1747E8 0%, #7A3FF2 100%)" fill-opacity="0.8"/>
+      <circle cx="180" cy="85" r="28" fill="#FF7A18" fill-opacity="0.35"/>
+      <polygon points="175,75 192,85 175,95" fill="#FFFFFF"/>
+
+      <!-- Viewport Timecode & Safe Zone Overlays -->
+      <text x="18" y="28" font-family="monospace" font-size="12" font-weight="700" fill="#22C55E">● REC 00:03:42:18</text>
+      <text x="342" y="28" font-family="monospace" font-size="11" font-weight="600" fill="#94A3B8" text-anchor="end">ISO 800 · 24fps</text>
+
+      <!-- Center Crosshair Target -->
+      <g stroke="#ffffff" stroke-opacity="0.2" stroke-width="1">
+        <line x1="170" y1="85" x2="190" y2="85"/>
+        <line x1="180" y1="75" x2="180" y2="95"/>
+      </g>
+    </g>
+
+    <!-- Side Color Grading & Scopes Panel -->
+    <g transform="translate(400, 48)">
+      <rect width="176" height="190" rx="10" fill="#090F1E" stroke="#1C2746" stroke-width="1.2"/>
+      <text x="16" y="22" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#8494B6">Color Wheels &amp; Scopes</text>
+      
+      <!-- Color Wheel 1 (Shadows / Blue) -->
+      <g transform="translate(24, 40)">
+        <circle cx="26" cy="26" r="24" stroke="#25355E" stroke-width="2" fill="#0C1324"/>
+        <circle cx="26" cy="26" r="16" stroke="#1747E8" stroke-width="3" fill="none"/>
+        <circle cx="22" cy="22" r="3" fill="#38BDF8"/>
+        <text x="26" y="62" font-family="system-ui, sans-serif" font-size="9" fill="#8494B6" text-anchor="middle">Shadows</text>
+      </g>
+
+      <!-- Color Wheel 2 (Highlights / Orange) -->
+      <g transform="translate(98, 40)">
+        <circle cx="26" cy="26" r="24" stroke="#25355E" stroke-width="2" fill="#0C1324"/>
+        <circle cx="26" cy="26" r="16" stroke="#FF7A18" stroke-width="3" fill="none"/>
+        <circle cx="30" cy="24" r="3" fill="#FF7A18"/>
+        <text x="26" y="62" font-family="system-ui, sans-serif" font-size="9" fill="#8494B6" text-anchor="middle">Highlights</text>
+      </g>
+
+      <!-- Audio Level Meters (L & R VU meters) -->
+      <g transform="translate(18, 120)">
+        <text x="0" y="10" font-family="system-ui, sans-serif" font-size="9" font-weight="600" fill="#6B7C9E">Audio Master L / R</text>
+        <rect x="0" y="16" width="140" height="8" rx="4" fill="#141E38"/>
+        <rect x="0" y="16" width="112" height="8" rx="4" fill="linear-gradient(90deg, #10B981 70%, #F59E0B 90%, #EF4444 100%)"/>
+        <rect x="0" y="28" width="140" height="8" rx="4" fill="#141E38"/>
+        <rect x="0" y="28" width="102" height="8" rx="4" fill="linear-gradient(90deg, #10B981 70%, #F59E0B 90%, #EF4444 100%)"/>
+      </g>
+    </g>
+
+    <!-- Multi-Track Editing Timeline (Lower Half of Station) -->
+    <g transform="translate(24, 252)">
+      <!-- Timeline Base Container -->
+      <rect width="552" height="98" rx="8" fill="#080E1C" stroke="#1D2A4F" stroke-width="1"/>
+
+      <!-- Timeline Ruler Marks -->
+      <g stroke="#3A4B75" stroke-width="1">
+        <line x1="30" y1="0" x2="30" y2="8"/>
+        <line x1="80" y1="0" x2="80" y2="5"/>
+        <line x1="130" y1="0" x2="130" y2="8"/>
+        <line x1="180" y1="0" x2="180" y2="5"/>
+        <line x1="230" y1="0" x2="230" y2="8"/>
+        <line x1="280" y1="0" x2="280" y2="5"/>
+        <line x1="330" y1="0" x2="330" y2="8"/>
+        <line x1="380" y1="0" x2="380" y2="5"/>
+        <line x1="430" y1="0" x2="430" y2="8"/>
+        <line x1="480" y1="0" x2="480" y2="5"/>
+        <line x1="530" y1="0" x2="530" y2="8"/>
+      </g>
+
+      <!-- Track V1 (Main 4K Video Clips) -->
+      <g transform="translate(16, 16)">
+        <rect x="0" y="0" width="130" height="22" rx="4" fill="url(#clip1)"/>
+        <rect x="136" y="0" width="180" height="22" rx="4" fill="url(#clip2)"/>
+        <rect x="322" y="0" width="150" height="22" rx="4" fill="url(#clip3)"/>
+        <rect x="478" y="0" width="45" height="22" rx="4" fill="url(#clip1)"/>
+      </g>
+
+      <!-- Track A1 & A2 (Sound Design / Voice Waveforms) -->
+      <g transform="translate(16, 44)">
+        <rect x="0" y="0" width="220" height="20" rx="4" fill="#132145"/>
+        <!-- Simulated Waveform lines -->
+        <path d="M 6 10 Q 20 2, 35 10 T 60 16 T 90 4 T 120 12 T 150 6 T 180 14 T 210 10" fill="none" stroke="#38BDF8" stroke-width="1.8"/>
+
+        <rect x="226" y="0" width="295" height="20" rx="4" fill="#191B3D"/>
+        <path d="M 232 10 Q 250 16, 270 6 T 310 14 T 350 4 T 390 14 T 430 8 T 470 12 T 510 10" fill="none" stroke="#C33CFF" stroke-width="1.8"/>
+      </g>
+
+      <!-- Track FX (Motion Graphics / Title Layers) -->
+      <g transform="translate(16, 70)">
+        <rect x="70" y="0" width="160" height="18" rx="4" fill="#FF7A18" fill-opacity="0.3" stroke="#FF7A18" stroke-width="1"/>
+        <text x="150" y="13" font-family="system-ui, sans-serif" font-size="9" font-weight="700" fill="#FF7A18" text-anchor="middle">SJ SPECTRA KINETIC TITLES</text>
+
+        <rect x="270" y="0" width="140" height="18" rx="4" fill="#7A3FF2" fill-opacity="0.3" stroke="#7A3FF2" stroke-width="1"/>
+        <text x="340" y="13" font-family="system-ui, sans-serif" font-size="9" font-weight="700" fill="#C33CFF" text-anchor="middle">VFX TRANSITION PACK</text>
+      </g>
+
+      <!-- Red/Orange Playhead Marker -->
+      <g transform="translate(245, 0)">
+        <line x1="0" y1="0" x2="0" y2="98" stroke="#FF7A18" stroke-width="2"/>
+        <polygon points="-5,0 5,0 0,7" fill="#FF7A18"/>
+      </g>
+    </g>
+  </g>
+</svg>

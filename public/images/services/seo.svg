@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" fill="none">
+  <defs>
+    <radialGradient id="bgGlowSeo" cx="45%" cy="30%" r="65%">
+      <stop offset="0%" stop-color="#1747E8" stop-opacity="0.32"/>
+      <stop offset="50%" stop-color="#7A3FF2" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#0B1020" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="orangeGlowSeo" cx="75%" cy="70%" r="45%">
+      <stop offset="0%" stop-color="#FF7A18" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#0B1020" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="scoreRing" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#22C55E"/>
+      <stop offset="100%" stop-color="#38BDF8"/>
+    </linearGradient>
+    <linearGradient id="searchBarGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#152140"/>
+      <stop offset="100%" stop-color="#0F1830"/>
+    </linearGradient>
+    <filter id="seoShadow" x="-10%" y="-10%" width="120%" height="125%" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="16" stdDeviation="22" flood-color="#000000" flood-opacity="0.55"/>
+    </filter>
+  </defs>
+
+  <!-- Deep Navy Studio Backdrop -->
+  <rect width="800" height="450" fill="#0B1020"/>
+  <rect width="800" height="450" fill="url(#bgGlowSeo)"/>
+  <rect width="800" height="450" fill="url(#orangeGlowSeo)"/>
+
+  <!-- Background Abstract SEO Keyword Network / Nodes -->
+  <g stroke="#ffffff" stroke-opacity="0.06" stroke-width="1.2">
+    <line x1="160" y1="120" x2="280" y2="70"/>
+    <line x1="280" y1="70" x2="400" y2="120"/>
+    <line x1="400" y1="120" x2="520" y2="70"/>
+    <line x1="520" y1="70" x2="640" y2="130"/>
+  </g>
+  <circle cx="160" cy="120" r="4" fill="#1747E8" fill-opacity="0.4"/>
+  <circle cx="280" cy="70" r="5" fill="#7A3FF2" fill-opacity="0.5"/>
+  <circle cx="520" cy="70" r="4" fill="#FF7A18" fill-opacity="0.4"/>
+  <circle cx="640" cy="130" r="5" fill="#38BDF8" fill-opacity="0.4"/>
+
+  <!-- Central SEO Dashboard Container -->
+  <g filter="url(#seoShadow)" transform="translate(110, 45)">
+    <rect width="580" height="360" rx="16" fill="#0E162D" stroke="#25355E" stroke-width="1.5"/>
+
+    <!-- Prominent Search Console Bar -->
+    <g transform="translate(30, 26)">
+      <rect width="520" height="48" rx="24" fill="url(#searchBarGrad)" stroke="#2F4275" stroke-width="1.5"/>
+      <!-- Magnifying Glass Icon -->
+      <circle cx="32" cy="24" r="8" stroke="#38BDF8" stroke-width="2"/>
+      <line x1="38" y1="30" x2="46" y2="38" stroke="#38BDF8" stroke-width="2" stroke-linecap="round"/>
+      <text x="58" y="30" font-family="system-ui, sans-serif" font-size="14" font-weight="600" fill="#FFFFFF">best digital solutions agency near me</text>
+      <!-- Search enter button pill -->
+      <rect x="420" y="8" width="90" height="32" rx="16" fill="linear-gradient(135deg, #1747E8, #7A3FF2)"/>
+      <text x="465" y="29" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle">SEARCH ⌕</text>
+    </g>
+
+    <!-- Rank #1 SERP Result Highlight Card -->
+    <g transform="translate(30, 94)">
+      <rect width="330" height="135" rx="12" fill="#121D3A" stroke="#2B3C6B" stroke-width="1.2"/>
+      
+      <!-- Rank Badge -->
+      <rect x="18" y="16" width="90" height="22" rx="11" fill="#22C55E" fill-opacity="0.15"/>
+      <circle cx="28" cy="27" r="4" fill="#22C55E"/>
+      <text x="64" y="31" font-family="system-ui, sans-serif" font-size="10" font-weight="800" fill="#22C55E">#1 RANKING</text>
+      
+      <!-- Domain Link Mock -->
+      <text x="120" y="31" font-family="system-ui, sans-serif" font-size="10" font-weight="500" fill="#6B7C9E">https://sjspectra.com</text>
+
+      <!-- SERP Title -->
+      <text x="18" y="64" font-family="system-ui, sans-serif" font-size="15" font-weight="700" fill="#38BDF8">SJ Spectra | Strategic SEO &amp; Growth</text>
+      
+      <!-- Meta Description -->
+      <text x="18" y="86" font-family="system-ui, sans-serif" font-size="11" font-weight="400" fill="#94A3B8">Drive continuous organic rankings, high-intent traffic, and authoritative backlinks...</text>
+
+      <!-- Sitelinks Chips -->
+      <g transform="translate(18, 104)">
+        <rect width="70" height="18" rx="9" fill="#182548"/>
+        <text x="35" y="13" font-family="system-ui, sans-serif" font-size="9" fill="#CBD5E1" text-anchor="middle">Services ↗</text>
+        <rect x="78" width="70" height="18" rx="9" fill="#182548"/>
+        <text x="113" y="13" font-family="system-ui, sans-serif" font-size="9" fill="#CBD5E1" text-anchor="middle">Case Studies</text>
+        <rect x="156" width="65" height="18" rx="9" fill="#182548"/>
+        <text x="188" y="13" font-family="system-ui, sans-serif" font-size="9" fill="#CBD5E1" text-anchor="middle">Audit Tool</text>
+      </g>
+    </g>
+
+    <!-- Core Web Vitals & Technical SEO Score Circular Meter -->
+    <g transform="translate(380, 94)">
+      <rect width="170" height="135" rx="12" fill="#121D3A" stroke="#2B3C6B" stroke-width="1.2"/>
+      
+      <!-- Circular Ring Meter -->
+      <circle cx="85" cy="62" r="36" stroke="#182548" stroke-width="6"/>
+      <circle cx="85" cy="62" r="36" stroke="url(#scoreRing)" stroke-width="6" stroke-dasharray="200" stroke-dashoffset="20" stroke-linecap="round"/>
+      <text x="85" y="67" font-family="system-ui, sans-serif" font-size="20" font-weight="900" fill="#FFFFFF" text-anchor="middle">99</text>
+      
+      <text x="85" y="116" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#CBD5E1" text-anchor="middle">Core Web Vitals</text>
+    </g>
+
+    <!-- Bottom Organic Keyword Trends & Crawling Status -->
+    <g transform="translate(30, 245)">
+      <rect width="520" height="90" rx="12" fill="#101933" stroke="#202F54" stroke-width="1"/>
+      
+      <!-- Keyword items -->
+      <g transform="translate(20, 16)">
+        <text x="0" y="14" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#8494B6">Tracked Keywords</text>
+        <text x="0" y="38" font-family="system-ui, sans-serif" font-size="18" font-weight="800" fill="#FFFFFF">1,240+</text>
+        <text x="0" y="56" font-family="system-ui, sans-serif" font-size="10" font-weight="600" fill="#22C55E">↑ 182 in Top 3</text>
+      </g>
+
+      <!-- Upward Organic Wave Graph -->
+      <g transform="translate(180, 15)">
+        <path d="M 0 50 Q 60 45, 110 32 T 220 18 T 310 8" fill="none" stroke="linear-gradient(90deg, #1747E8, #7A3FF2, #FF7A18)" stroke-width="3" stroke-linecap="round"/>
+        <circle cx="310" cy="8" r="5" fill="#FF7A18"/>
+        <!-- Fill under wave -->
+        <path d="M 0 50 Q 60 45, 110 32 T 220 18 T 310 8 L 310 60 L 0 60 Z" fill="#1747E8" fill-opacity="0.12"/>
+      </g>
+    </g>
+  </g>
+</svg>

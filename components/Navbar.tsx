@@ -6,7 +6,6 @@ import Image from "next/image";
 const navItems = [
   { label: "Home", href: "#home" },
   { label: "Services", href: "#services" },
-  { label: "Work", href: "#work" },
   { label: "About", href: "#about" },
   { label: "Contact", href: "#contact" },
 ];
@@ -25,7 +24,7 @@ export default function Navbar() {
         <Link href="#home" className="navbar-logo" onClick={closeMenu}>
   <Image
     src="/images/websiteheader.png"
-    alt="SJ Spectra"
+    alt="SJ Spectra logo"
     width={200}
     height={50}
     priority
@@ -49,7 +48,7 @@ export default function Navbar() {
 
         {/* Mobile Menu Button */}
         <button
-          className="navbar-menu-button"
+          className={`navbar-menu-button ${menuOpen ? "open" : ""}`}
           onClick={() => setMenuOpen(!menuOpen)}
           aria-label="Toggle navigation menu"
           aria-expanded={menuOpen}
