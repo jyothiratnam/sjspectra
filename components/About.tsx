@@ -73,7 +73,7 @@ const highlights = [
               </p>
   
               <a href="#contact" className="btn btn-primary">
-                Let's Build Together
+                Let&apos;s Build Together
                 <span>↗</span>
               </a>
             </div>

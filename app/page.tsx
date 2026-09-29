@@ -38,7 +38,7 @@ export default function Home() {
 
               <div className="hero-actions">
                 <a href="#contact" className="btn btn-primary hero-primary-btn">
-                  Let's Work Together
+                  Let&apos;s Work Together
                   <span>↗</span>
                 </a>
 

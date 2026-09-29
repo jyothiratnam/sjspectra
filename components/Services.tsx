@@ -90,7 +90,7 @@ const services = [
             <p>Have a project in mind?</p>
   
             <a href="#contact" className="btn btn-primary">
-              Let's Talk
+              Let&apos;s Talk
               <span>↗</span>
             </a>
           </div>

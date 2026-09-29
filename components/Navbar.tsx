@@ -43,7 +43,7 @@ export default function Navbar() {
 
         {/* Desktop CTA */}
         <Link href="#contact" className="navbar-cta">
-          Let's Talk
+          Let&apos;s Talk
           <span>↗</span>
         </Link>
 
@@ -77,7 +77,7 @@ export default function Navbar() {
             className="mobile-cta"
             onClick={closeMenu}
           >
-            Let's Talk <span>↗</span>
+            Let&apos;s Talk <span>↗</span>
           </Link>
         </nav>
       </div>

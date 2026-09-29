@@ -27,18 +27,24 @@ ${message}`;
       whatsappMessage
     )}`;
 
-    window.open(whatsappUrl, "_blank");
+    const link = document.createElement("a");
+    link.href = whatsappUrl;
+    link.target = "_blank";
+    link.rel = "noopener noreferrer";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
   };
 
   return (
     <section id="contact" className="contact-section section">
       <div className="container">
         <div className="contact-header">
-          <span className="section-label">Let's Connect</span>
+          <span className="section-label">Let&apos;s Connect</span>
 
           <h2 className="contact-title">
             Have an idea?
-            <span> Let's build it.</span>
+            <span> Let&apos;s build it.</span>
           </h2>
 
           <p className="contact-description">
