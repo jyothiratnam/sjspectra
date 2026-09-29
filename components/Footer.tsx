@@ -119,7 +119,7 @@ export default function Footer() {
 
             {/* Business WhatsApp link placeholder - replace YOUR_PHONE_NUMBER when ready */}
             <a
-              href="https://wa.me/YOUR_PHONE_NUMBER"
+              href="https://wa.me/9553269393"
               target="_blank"
               rel="noopener noreferrer"
               className="footer-social-link"
