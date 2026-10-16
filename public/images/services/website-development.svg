@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" fill="none">
+  <defs>
+    <radialGradient id="bgGlow" cx="70%" cy="30%" r="65%">
+      <stop offset="0%" stop-color="#1747E8" stop-opacity="0.35"/>
+      <stop offset="50%" stop-color="#7A3FF2" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#0B1020" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="orangeRim" cx="20%" cy="85%" r="45%">
+      <stop offset="0%" stop-color="#FF7A18" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#0B1020" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="brandGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1747E8"/>
+      <stop offset="100%" stop-color="#7A3FF2"/>
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1E2846" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#12182B" stop-opacity="0.9"/>
+    </linearGradient>
+    <linearGradient id="accentLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1747E8"/>
+      <stop offset="50%" stop-color="#7A3FF2"/>
+      <stop offset="100%" stop-color="#FF7A18"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="125%" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="16" stdDeviation="20" flood-color="#000000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+
+  <!-- Deep Navy Studio Backdrop -->
+  <rect width="800" height="450" fill="#0B1020"/>
+  <rect width="800" height="450" fill="url(#bgGlow)"/>
+  <rect width="800" height="450" fill="url(#orangeRim)"/>
+
+  <!-- Subtle grid lines -->
+  <g stroke="#ffffff" stroke-opacity="0.04" stroke-width="1">
+    <line x1="80" y1="0" x2="80" y2="450"/>
+    <line x1="200" y1="0" x2="200" y2="450"/>
+    <line x1="320" y1="0" x2="320" y2="450"/>
+    <line x1="480" y1="0" x2="480" y2="450"/>
+    <line x1="600" y1="0" x2="600" y2="450"/>
+    <line x1="720" y1="0" x2="720" y2="450"/>
+    <line x1="0" y1="90" x2="800" y2="90"/>
+    <line x1="0" y1="180" x2="800" y2="180"/>
+    <line x1="0" y1="270" x2="800" y2="270"/>
+    <line x1="0" y1="360" x2="800" y2="360"/>
+  </g>
+
+  <!-- Browser Window Mockup -->
+  <g filter="url(#shadow)">
+    <!-- Browser Frame -->
+    <rect x="110" y="55" width="580" height="340" rx="14" fill="#0F162B" stroke="#253258" stroke-width="1.5"/>
+    <!-- Browser Topbar -->
+    <path d="M110 69 C110 61.268 116.268 55 124 55 L676 55 C683.732 55 690 61.268 690 69 L690 95 L110 95 Z" fill="#141C35"/>
+    <line x1="110" y1="95" x2="690" y2="95" stroke="#253258" stroke-width="1"/>
+    
+    <!-- Window Control Dots -->
+    <circle cx="132" cy="75" r="4.5" fill="#FF5F56"/>
+    <circle cx="147" cy="75" r="4.5" fill="#FFBD2E"/>
+    <circle cx="162" cy="75" r="4.5" fill="#27C93F"/>
+
+    <!-- URL Bar -->
+    <rect x="230" y="65" width="340" height="20" rx="10" fill="#0C1326" stroke="#222D4E" stroke-width="1"/>
+    <circle cx="245" cy="75" r="3" fill="#1747E8"/>
+    <rect x="256" y="73" width="130" height="4" rx="2" fill="#5F6D90"/>
+    <rect x="548" y="72" width="10" height="6" rx="2" fill="#3D4B6E"/>
+
+    <!-- Website Content Inside Browser -->
+    <!-- Nav Mock -->
+    <rect x="140" y="115" width="48" height="12" rx="4" fill="url(#brandGrad)"/>
+    <rect x="470" y="118" width="32" height="6" rx="3" fill="#4B587E"/>
+    <rect x="515" y="118" width="36" height="6" rx="3" fill="#4B587E"/>
+    <rect x="564" y="118" width="34" height="6" rx="3" fill="#4B587E"/>
+    <rect x="612" y="114" width="54" height="14" rx="7" fill="url(#brandGrad)"/>
+
+    <!-- Hero Content in Browser -->
+    <!-- Left Hero Typography -->
+    <rect x="140" y="150" width="80" height="7" rx="3.5" fill="#FF7A18" fill-opacity="0.8"/>
+    <rect x="140" y="168" width="220" height="18" rx="4" fill="#FFFFFF"/>
+    <rect x="140" y="193" width="180" height="18" rx="4" fill="url(#brandGrad)"/>
+    <rect x="140" y="222" width="230" height="6" rx="3" fill="#6A7A9F"/>
+    <rect x="140" y="234" width="190" height="6" rx="3" fill="#6A7A9F"/>
+    <rect x="140" y="254" width="96" height="22" rx="11" fill="url(#brandGrad)"/>
+    <rect x="246" y="254" width="80" height="22" rx="11" fill="#16203A" stroke="#2E3C66" stroke-width="1"/>
+
+    <!-- Right Hero Media / Cards Mock -->
+    <rect x="395" y="150" width="270" height="180" rx="12" fill="url(#cardGrad)" stroke="#2B3A64" stroke-width="1.2"/>
+    <!-- Nested Dashboard Preview -->
+    <rect x="415" y="170" width="230" height="60" rx="8" fill="#0C1326" stroke="#212C4E" stroke-width="1"/>
+    <!-- Line chart curve -->
+    <path d="M425 210 Q 460 185, 490 200 T 550 178 T 635 185" fill="none" stroke="url(#brandGrad)" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="550" cy="178" r="4" fill="#FF7A18"/>
+    <circle cx="635" cy="185" r="4" fill="#1747E8"/>
+
+    <!-- Code Block Floating Card -->
+    <g transform="translate(425, 245)">
+      <rect width="210" height="65" rx="8" fill="#080E1F" stroke="#25345E" stroke-width="1"/>
+      <rect x="12" y="14" width="45" height="5" rx="2.5" fill="#7A3FF2"/>
+      <rect x="62" y="14" width="60" height="5" rx="2.5" fill="#1747E8"/>
+      <rect x="12" y="26" width="90" height="5" rx="2.5" fill="#38BDF8"/>
+      <rect x="108" y="26" width="30" height="5" rx="2.5" fill="#FF7A18"/>
+      <rect x="12" y="38" width="70" height="5" rx="2.5" fill="#6A7A9F"/>
+      <rect x="12" y="50" width="40" height="5" rx="2.5" fill="#27C93F"/>
+    </g>
+
+    <!-- Bottom Ambient Accent Line -->
+    <rect x="110" y="392" width="580" height="3" fill="url(#accentLine)"/>
+  </g>
+</svg>

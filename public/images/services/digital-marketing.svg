@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" fill="none">
+  <defs>
+    <radialGradient id="bgGlowMkt" cx="65%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#1747E8" stop-opacity="0.35"/>
+      <stop offset="50%" stop-color="#7A3FF2" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#0B1020" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="orangeGlowMkt" cx="25%" cy="75%" r="45%">
+      <stop offset="0%" stop-color="#FF7A18" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#0B1020" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="chartAreaGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1747E8" stop-opacity="0.45"/>
+      <stop offset="60%" stop-color="#7A3FF2" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#0E162D" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="chartLineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1747E8"/>
+      <stop offset="65%" stop-color="#7A3FF2"/>
+      <stop offset="100%" stop-color="#FF7A18"/>
+    </linearGradient>
+    <linearGradient id="barGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7A3FF2"/>
+      <stop offset="100%" stop-color="#1747E8"/>
+    </linearGradient>
+    <filter id="mktShadow" x="-10%" y="-10%" width="120%" height="125%" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="16" stdDeviation="22" flood-color="#000000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+
+  <!-- Deep Navy Studio Backdrop -->
+  <rect width="800" height="450" fill="#0B1020"/>
+  <rect width="800" height="450" fill="url(#bgGlowMkt)"/>
+  <rect width="800" height="450" fill="url(#orangeGlowMkt)"/>
+
+  <!-- Analytics Console Container -->
+  <g filter="url(#mktShadow)" transform="translate(100, 45)">
+    <!-- Console Body -->
+    <rect width="600" height="360" rx="16" fill="#0E162D" stroke="#233256" stroke-width="1.5"/>
+
+    <!-- Console Header Bar -->
+    <g transform="translate(25, 24)">
+      <circle cx="16" cy="16" r="16" fill="#1747E8" fill-opacity="0.2"/>
+      <path d="M12 21 L16 13 L20 17 L25 10" stroke="#38BDF8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="42" y="15" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#FFFFFF">Campaign Growth &amp; ROI Analytics</text>
+      <text x="42" y="27" font-family="system-ui, sans-serif" font-size="11" font-weight="500" fill="#6B7C9E">Multi-Channel Performance Overview</text>
+      <!-- Date Filter Pill -->
+      <rect x="420" y="4" width="130" height="24" rx="12" fill="#15203D" stroke="#283864" stroke-width="1"/>
+      <text x="485" y="20" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#CBD5E1" text-anchor="middle">Last 30 Days ▾</text>
+    </g>
+
+    <!-- Top KPI Metric Cards Row -->
+    <g transform="translate(25, 75)">
+      <!-- KPI 1 -->
+      <rect x="0" y="0" width="170" height="74" rx="12" fill="#121C38" stroke="#25355E" stroke-width="1"/>
+      <text x="16" y="24" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#8494B6">Total Conversion</text>
+      <text x="16" y="52" font-family="system-ui, sans-serif" font-size="22" font-weight="800" fill="#FFFFFF">+284.6%</text>
+      <rect x="115" y="14" width="42" height="18" rx="9" fill="#22C55E" fill-opacity="0.15"/>
+      <text x="136" y="27" font-family="system-ui, sans-serif" font-size="10" font-weight="700" fill="#22C55E" text-anchor="middle">↑ 38%</text>
+
+      <!-- KPI 2 -->
+      <rect x="190" y="0" width="170" height="74" rx="12" fill="#121C38" stroke="#25355E" stroke-width="1"/>
+      <text x="206" y="24" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#8494B6">Ad Reach / Imp</text>
+      <text x="206" y="52" font-family="system-ui, sans-serif" font-size="22" font-weight="800" fill="#FFFFFF">1.42M</text>
+      <rect x="305" y="14" width="42" height="18" rx="9" fill="#1747E8" fill-opacity="0.2"/>
+      <text x="326" y="27" font-family="system-ui, sans-serif" font-size="10" font-weight="700" fill="#60A5FA" text-anchor="middle">Active</text>
+
+      <!-- KPI 3 -->
+      <rect x="380" y="0" width="170" height="74" rx="12" fill="#121C38" stroke="#25355E" stroke-width="1"/>
+      <text x="396" y="24" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#8494B6">Qualified Leads</text>
+      <text x="396" y="52" font-family="system-ui, sans-serif" font-size="22" font-weight="800" fill="#FF7A18">4,890</text>
+      <rect x="495" y="14" width="42" height="18" rx="9" fill="#FF7A18" fill-opacity="0.15"/>
+      <text x="516" y="27" font-family="system-ui, sans-serif" font-size="10" font-weight="700" fill="#FF7A18" text-anchor="middle">⚡ Hot</text>
+    </g>
+
+    <!-- Main Chart Section -->
+    <g transform="translate(25, 165)">
+      <rect width="360" height="170" rx="12" fill="#111B35" stroke="#23345A" stroke-width="1"/>
+      
+      <!-- Horizontal Grid Lines inside chart -->
+      <line x1="20" y1="40" x2="340" y2="40" stroke="#202F52" stroke-dasharray="4 4"/>
+      <line x1="20" y1="80" x2="340" y2="80" stroke="#202F52" stroke-dasharray="4 4"/>
+      <line x1="20" y1="120" x2="340" y2="120" stroke="#202F52" stroke-dasharray="4 4"/>
+
+      <!-- Smooth Area Under Growth Curve -->
+      <path d="M 25 130 Q 80 115, 120 95 T 200 80 T 270 45 T 335 30 L 335 145 L 25 145 Z" fill="url(#chartAreaGrad)"/>
+      <!-- Main Trend Line -->
+      <path d="M 25 130 Q 80 115, 120 95 T 200 80 T 270 45 T 335 30" fill="none" stroke="url(#chartLineGrad)" stroke-width="3" stroke-linecap="round"/>
+
+      <!-- Data Points -->
+      <circle cx="120" cy="95" r="4.5" fill="#1747E8" stroke="#FFFFFF" stroke-width="1.5"/>
+      <circle cx="200" cy="80" r="4.5" fill="#7A3FF2" stroke="#FFFFFF" stroke-width="1.5"/>
+      <circle cx="270" cy="45" r="4.5" fill="#C33CFF" stroke="#FFFFFF" stroke-width="1.5"/>
+      <circle cx="335" cy="30" r="6" fill="#FF7A18" stroke="#FFFFFF" stroke-width="2"/>
+
+      <!-- Tooltip Tag -->
+      <g transform="translate(250, 10)">
+        <rect width="70" height="22" rx="6" fill="#FF7A18"/>
+        <text x="35" y="15" font-family="system-ui, sans-serif" font-size="10" font-weight="800" fill="#FFFFFF" text-anchor="middle">+148% ROI</text>
+      </g>
+    </g>
+
+    <!-- Side Bar Chart & Channels breakdown -->
+    <g transform="translate(405, 165)">
+      <rect width="170" height="170" rx="12" fill="#111B35" stroke="#23345A" stroke-width="1"/>
+      <text x="18" y="24" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#CBD5E1">Channel Mix</text>
+
+      <!-- Vertical Bars -->
+      <g transform="translate(24, 45)">
+        <!-- Bar 1: Google Ads -->
+        <rect x="0" y="30" width="18" height="75" rx="5" fill="#1747E8"/>
+        <!-- Bar 2: Meta Ads -->
+        <rect x="28" y="10" width="18" height="95" rx="5" fill="#7A3FF2"/>
+        <!-- Bar 3: Organic Growth -->
+        <rect x="56" y="45" width="18" height="60" rx="5" fill="#38BDF8"/>
+        <!-- Bar 4: Retargeting -->
+        <rect x="84" y="20" width="18" height="85" rx="5" fill="#FF7A18"/>
+      </g>
+
+      <!-- Bottom Channel Legend -->
+      <g transform="translate(18, 142)">
+        <circle cx="6" cy="6" r="3.5" fill="#1747E8"/>
+        <text x="14" y="9" font-family="system-ui, sans-serif" font-size="9" fill="#8494B6">Search</text>
+        <circle cx="70" cy="6" r="3.5" fill="#7A3FF2"/>
+        <text x="78" y="9" font-family="system-ui, sans-serif" font-size="9" fill="#8494B6">Social</text>
+      </g>
+    </g>
+  </g>
+</svg>

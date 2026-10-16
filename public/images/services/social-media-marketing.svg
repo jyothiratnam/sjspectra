@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" fill="none">
+  <defs>
+    <radialGradient id="bgGlowSocial" cx="60%" cy="40%" r="65%">
+      <stop offset="0%" stop-color="#C33CFF" stop-opacity="0.28"/>
+      <stop offset="50%" stop-color="#1747E8" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#0B1020" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="orangeGlowSocial" cx="20%" cy="30%" r="45%">
+      <stop offset="0%" stop-color="#FF7A18" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#0B1020" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="instaStoryGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF7A18"/>
+      <stop offset="45%" stop-color="#C33CFF"/>
+      <stop offset="100%" stop-color="#1747E8"/>
+    </linearGradient>
+    <linearGradient id="postCardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#162243"/>
+      <stop offset="100%" stop-color="#0D1426"/>
+    </linearGradient>
+    <filter id="socialShadow" x="-10%" y="-10%" width="120%" height="125%" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="16" stdDeviation="22" flood-color="#000000" flood-opacity="0.55"/>
+    </filter>
+  </defs>
+
+  <!-- Deep Navy Studio Backdrop -->
+  <rect width="800" height="450" fill="#0B1020"/>
+  <rect width="800" height="450" fill="url(#bgGlowSocial)"/>
+  <rect width="800" height="450" fill="url(#orangeGlowSocial)"/>
+
+  <!-- Left Main Social Post Showcase Card -->
+  <g filter="url(#socialShadow)" transform="translate(130, 45)">
+    <!-- Post Container -->
+    <rect width="320" height="360" rx="18" fill="url(#postCardGrad)" stroke="#263762" stroke-width="1.5"/>
+
+    <!-- Post Header Profile -->
+    <g transform="translate(18, 16)">
+      <!-- Story Gradient Ring around Avatar -->
+      <circle cx="20" cy="20" r="19" stroke="url(#instaStoryGrad)" stroke-width="2.5" fill="none"/>
+      <circle cx="20" cy="20" r="15" fill="#1747E8"/>
+      <text x="20" y="24" font-family="system-ui, sans-serif" font-size="11" font-weight="800" fill="#FFFFFF" text-anchor="middle">SJ</text>
+
+      <text x="50" y="18" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#FFFFFF">sjspectra.agency</text>
+      <text x="50" y="30" font-family="system-ui, sans-serif" font-size="10" font-weight="500" fill="#8494B6">Sponsored · Creative Studio</text>
+      
+      <!-- Verified Badge -->
+      <circle cx="160" cy="14" r="5" fill="#38BDF8"/>
+      <text x="160" y="17" font-family="system-ui, sans-serif" font-size="7" font-weight="bold" fill="#0B1020" text-anchor="middle">✓</text>
+    </g>
+
+    <!-- Post Visual Content / Media Area -->
+    <g transform="translate(18, 65)">
+      <rect width="284" height="190" rx="12" fill="#0C1324" stroke="#1D2A4D" stroke-width="1"/>
+      
+      <!-- Artistic Brand Design Concept in Media -->
+      <circle cx="142" cy="95" r="55" fill="url(#instaStoryGrad)" fill-opacity="0.85"/>
+      <circle cx="142" cy="95" r="42" fill="#0C1324"/>
+      <text x="142" y="100" font-family="system-ui, sans-serif" font-size="18" font-weight="900" fill="#FFFFFF" text-anchor="middle">BUILD ↗</text>
+      
+      <!-- Floating Carousel Dot Indicators -->
+      <g transform="translate(122, 172)">
+        <circle cx="6" cy="4" r="3" fill="#FFFFFF"/>
+        <circle cx="18" cy="4" r="2.5" fill="#5A6B90"/>
+        <circle cx="28" cy="4" r="2.5" fill="#5A6B90"/>
+        <circle cx="38" cy="4" r="2.5" fill="#5A6B90"/>
+      </g>
+    </g>
+
+    <!-- Post Action Buttons (Heart, Comment, Share, Save) -->
+    <g transform="translate(22, 268)">
+      <!-- Heart Icon (Pink/Red active) -->
+      <path d="M 6 6 A 4 4 0 0 1 14 6 A 4 4 0 0 1 22 6 Q 22 13 14 18 Q 6 13 6 6 Z" fill="#EF4444"/>
+      <!-- Comment Icon -->
+      <circle cx="38" cy="10" r="6" stroke="#94A3B8" stroke-width="1.8" fill="none"/>
+      <!-- Share Icon -->
+      <path d="M 54 13 L 64 6 L 64 12 L 72 12 L 72 16 L 64 16 L 64 22 Z" fill="#94A3B8"/>
+      <!-- Save Bookmark -->
+      <path d="M 268 5 L 280 5 L 280 19 L 274 15 L 268 19 Z" fill="#38BDF8"/>
+    </g>
+
+    <!-- Post Likes & Metrics -->
+    <g transform="translate(22, 298)">
+      <text x="0" y="12" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#FFFFFF">12,840 likes</text>
+      <text x="0" y="28" font-family="system-ui, sans-serif" font-size="11" font-weight="400" fill="#94A3B8">Transforming brand narratives into viral engagement...</text>
+      <text x="0" y="44" font-family="system-ui, sans-serif" font-size="10" font-weight="500" fill="#38BDF8">#SocialMediaMarketing #DigitalGrowth</text>
+    </g>
+  </g>
+
+  <!-- Right Floating Metric Cards & Device Highlights -->
+  <!-- Floating Engagement Card -->
+  <g transform="translate(480, 75)" filter="url(#socialShadow)">
+    <rect width="200" height="110" rx="14" fill="#0F1832" stroke="#253764" stroke-width="1.2"/>
+    <text x="18" y="26" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#8494B6">Weekly Engagement</text>
+    <text x="18" y="56" font-family="system-ui, sans-serif" font-size="24" font-weight="800" fill="#FFFFFF">+48.2%</text>
+    <rect x="125" y="16" width="55" height="20" rx="10" fill="#C33CFF" fill-opacity="0.2"/>
+    <text x="152" y="30" font-family="system-ui, sans-serif" font-size="10" font-weight="700" fill="#C33CFF" text-anchor="middle">★ Viral</text>
+    
+    <!-- Mini follower progress bar -->
+    <rect x="18" y="74" width="164" height="10" rx="5" fill="#162243"/>
+    <rect x="18" y="74" width="130" height="10" rx="5" fill="url(#instaStoryGrad)"/>
+    <text x="18" y="98" font-family="system-ui, sans-serif" font-size="10" font-weight="500" fill="#94A3B8">142K Target Accounts Reached</text>
+  </g>
+
+  <!-- Floating Content Calendar Pill / Card -->
+  <g transform="translate(480, 215)" filter="url(#socialShadow)">
+    <rect width="200" height="120" rx="14" fill="#0F1832" stroke="#253764" stroke-width="1.2"/>
+    <text x="18" y="26" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#8494B6">Scheduled Campaigns</text>
+    
+    <!-- Calendar item 1 -->
+    <g transform="translate(18, 38)">
+      <circle cx="10" cy="12" r="10" fill="#1747E8"/>
+      <text x="28" y="11" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#FFFFFF">Brand Reel Launch</text>
+      <text x="28" y="23" font-family="system-ui, sans-serif" font-size="9" fill="#8494B6">Today · 6:00 PM EST</text>
+    </g>
+
+    <!-- Calendar item 2 -->
+    <g transform="translate(18, 76)">
+      <circle cx="10" cy="12" r="10" fill="#FF7A18"/>
+      <text x="28" y="11" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#FFFFFF">Story Ads Series</text>
+      <text x="28" y="23" font-family="system-ui, sans-serif" font-size="9" fill="#8494B6">Tomorrow · 11:30 AM</text>
+    </g>
+  </g>
+</svg>
